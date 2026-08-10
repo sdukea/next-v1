@@ -7,7 +7,9 @@ authors = [
     { name = "Syon Duke Abraham", email = "kordan.goat@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "fastapi[standard]>=0.141.1",
+]
 
 [project.scripts]
 next-v1 = "next_v1:main"
